@@ -24,7 +24,9 @@ h2 {
     display: flex;
     width: 22%;
     background-color: rgba(207, 71, 219, 0.301);
-    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .div2
@@ -47,9 +49,9 @@ h2 {
 
 .div4
 {
-    width:  220px;
-    height: 220px;
-    margin-top: 15%;
+    width:  70%;
+    height: 22%;
+    margin-top: 5%;
     background-color: rgb(206, 194, 25);
     border-radius: 50%;   
 }
@@ -116,6 +118,42 @@ h2 {
 .Conocimientos
 {
     margin-top: 20px;
+}
+
+.Referencias p
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.Referencias
+{
+    margin-top: 24px;
+}
+
+.Cualidades p
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.Cualidades
+{
+    margin-top: 24px;
+}
+
+.Contacto p
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.Contacto
+{
+    margin-top: 36px;
 }
 
 .tab
