@@ -1,0 +1,139 @@
+html
+{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background-color: rgb(30, 30, 30);
+}
+h2 {
+    margin-block-end: 0.0em;
+}
+
+.div1
+{
+    display: flex;
+    width: 22%;
+    background-color: rgba(207, 71, 219, 0.301);
+    justify-content: center;
+}
+
+.div2
+{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    background-color: rgb(30, 30, 30);
+}
+
+.div3
+{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(28, 35, 133, 0.301);
+    justify-content: center;
+    align-items: center;
+}
+
+.div4
+{
+    width:  220px;
+    height: 220px;
+    margin-top: 15%;
+    background-color: rgb(206, 194, 25);
+    border-radius: 50%;   
+}
+
+.Negrilla
+{
+    font-weight: 800;
+}
+
+.SubTitulo
+{
+    margin-left:2%;
+}
+
+#Nombre
+{
+    color: white;
+    /*background-color: coral;*/
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.AboutMe p
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.AboutMe
+{
+    margin-top: 30px;
+}
+
+.ExperienciAcademica p
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.ExperienciAcademica
+{
+    margin-top: 24px;
+}
+
+.ExperienciaLaboral p 
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.ExperienciaLaboral
+{
+    margin-top: 24px;
+}
+
+.Conocimientos p 
+{
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.Conocimientos
+{
+    margin-top: 20px;
+}
+
+.tab
+{
+    margin-left: 2%;
+}
+
+.tab2
+{
+    margin-left: 4%;
+}
+.tab3
+{
+    margin-left: 6%;
+}
+
+.p1{color: white;}
+.p2{color: rgb(49, 118, 224);}
+.p3{color: rgb(49,224,209);}
+.p4{color:rgb(180, 120, 94); font-size: 14px;}
+.p5{color: rgb(87, 166, 074); font-size: 14px;}
+.p6{color:rgb(158,183,146)}
