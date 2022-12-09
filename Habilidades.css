@@ -23,10 +23,10 @@ h2 {
 {
     display: flex;
     width: 22%;
-    background-color: rgba(207, 71, 219, 0.301);
+    background-color: rgb(207 71 219 / 30%);
     flex-direction: column;
-    align-content: center;
     flex-wrap: wrap;
+    align-content: center;
 }
 
 .div2
@@ -119,7 +119,7 @@ h2 {
 {
     margin-top: 20px;
 }
-
+/**************************************/
 .Referencias p
 {
     display: inline;
